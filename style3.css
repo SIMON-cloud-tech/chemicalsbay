@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: gray;
+    color: black;
+}
+form{
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 2px black;
+    padding: 0.5rem;
+    max-width: 400px;
+    flex: 1;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 0.3rem;
+    line-height: 1rem;
+    width: 350px;
+    border: 1px solid aqua;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+}
+form h2{
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: wavy;
+    color: blue;
+    margin-bottom: 0.2rem;
+    pointer-events: none;
+}
+form input{
+    max-width: 300px;
+    line-height: 2rem;
+    margin: 1rem;
+    width: 300px;
+    flex: 1;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid blue;
+    font-weight: 600;
+}
+button{
+    color: white;
+    background-color: blue;
+    max-width: 300px;
+    width: 300px;
+    line-height: 2rem;
+    border-radius: 4px;
+    margin: 1rem;
+    flex: 1;
+    font-size: 22px;
+    text-decoration: wavy;
+    padding: 1rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background-color: green;
+}
